@@ -103,8 +103,22 @@ class SettingsFragment : PreferenceFragmentCompat(), SharedPreferences.OnSharedP
         }
     }
 
+    /**
+     * Creates a chooser intent for users to share app's Play Store listing.
+     * @author Cam Patten
+     */
     private fun shareApp() {
-        // TODO: ADD LINK TO PLAY STORE AND OPEN IN NEW JAVA INTENT
+        val appName = getString(R.string.app_name)
+        val textIntent = Intent(Intent.ACTION_SEND)
+        textIntent.type = "text/plain"
+        textIntent.putExtra(Intent.EXTRA_SUBJECT, appName)
+
+        val appPackageName = context?.packageName
+        val shareApp = getString(R.string.label_share_text)
+        val shareMessage = "$shareApp https://play.google.com/store/apps/details?id=$appPackageName"
+        textIntent.putExtra(Intent.EXTRA_TEXT, shareMessage)
+
+        startActivity(Intent.createChooser(textIntent, appName));
     }
 
     /**

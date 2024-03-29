@@ -154,6 +154,7 @@
     <string name="label_app_info">App Information</string>
     <string name="label_share">Share Hot Stuff</string>
     <string name="label_share_summary">Like Hot Stuff? Share the app with your friends and family</string>
+    <string name="label_share_text">Protect your belongings with Hot Stuff, a free and offline home inventory app</string>
     <string name="label_terms">Terms of Use</string>
     <string name="label_terms_summary">Read our terms and conditions</string>
     <string name="label_privacy">Privacy Policy</string>
@@ -180,6 +181,8 @@
         <a href="https://github.com/PamCatten/hot-stuff/blob/main/TERMS.md">Terms of Service</a> and
         <a href="https://github.com/PamCatten/hot-stuff/blob/main/PRIVACY.md">Privacy Policy</a>.
     </string>
+    <string name="onboard_pattern_terms">Terms of Service</string>
+    <string name="onboard_pattern_privacy">Privacy Policy</string>
     <string name="onboard_button_skip">SKIP</string>
     <string name="onboard_button_move">NEXT</string>
     <string name="onboard_button_continue">CONTINUE</string>

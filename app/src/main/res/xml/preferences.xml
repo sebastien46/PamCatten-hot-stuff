@@ -43,11 +43,11 @@
             app:iconSpaceReserved="false"/>
     </PreferenceCategory>
     <PreferenceCategory app:title="@string/label_contact" app:iconSpaceReserved="false">
-        <Preference
-            android:title="@string/label_rate"
-            android:summary="@string/label_rate_summary"
-            android:key="@string/key_rate"
-            app:iconSpaceReserved="false" />
+<!--        <Preference-->
+<!--            android:title="@string/label_rate"-->
+<!--            android:summary="@string/label_rate_summary"-->
+<!--            android:key="@string/key_rate"-->
+<!--            app:iconSpaceReserved="false" />-->
         <Preference
             android:title="@string/label_report"
             android:summary="@string/label_report_summary"
