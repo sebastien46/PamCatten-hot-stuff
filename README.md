@@ -7,7 +7,9 @@
 An offline Android app designed to help users quickly and accurately document belongings for proof of loss forms in insurance claims. 
 
 ## Getting Started
-// TODO: Links to Google Play and anywhere else HS is available on
+
+#### Download Hot Stuff
+[![Google Play Link](https://github.com/PamCatten/hot-stuff/blob/main/assets/google-play-badge-resize.png)](https://play.google.com/store/apps/details?id=com.hotstuff)
 
 #### Local Install Prerequisites
 To get started with this project, ensure you have the following:
