@@ -60,12 +60,12 @@
 
         \n\nThat\'s the basic flow of the app! If you want to export your item records, you can read
         more about it in the \'Exporting records\' walkthrough. If you find a bug or want to give
-        some feedback you can tap the \'Options\' in the toolbar at the top of the screen to open a
-        menu with those resources.
+        some feedback you can tap \'Report Bug\' or \'Send Feedback'\ on the \'Settings\' screen
+        to be redirected to the appropriate resources.
 
         \n\nLastly, if you have a question not answered here or need some further assistance, please
-        visit our GitHub (linked in the \'About Hot Stuff\' section of the \'Learn\' screen), it
-        should have resources and links to get in contact with the developer.
+        visit our GitHub repo (tap \'Source Code\' on the \'Settings\' screen), or tap the
+        \'Contact Developer'\ on the \'Settings\' screen to get in contact with the developer directly.
     </string>
     <string name="article_export">export</string>
     <string name="article_export_title">Walkthrough: Export Item Records</string>
