@@ -5,11 +5,19 @@ While we are committed to timely updates, you may have noticed that we neglected
 
 ## 1.1
 Features:
+* Additional currencies
+* Suggestions and autocomplete for Room fields
+* Suggestions and autocomplete for Category fields
+
+Fixes & UI Updates:
+* Typo and grammar corrections to in-app article resources
+* Object quantity value initialized to start with 1
+
+## 1.2
+Features:
 * Testing, lots and lots of testing
 * Copy item functionality
 * Text size preference
-* Suggestions and autocomplete for Room fields
-* Suggestions and autocomplete for Category fields
 * Condition field
 * Date/Time of purchase field
 * SQLite injection vulnerability patch for EditText fields
@@ -20,7 +28,7 @@ Fixes & UI Updates:
 * Summarize other categories into an 'Other' category after nine columns for HomeFragment charts
 * Remove toolbar onClick ripple effects
 
-## 1.2
+## 1.3
 Features:
 * Create multiple buildings
 * ActiveBuilding preference
@@ -37,10 +45,16 @@ Fixes & UI Updates:
 ## Backlog (unassigned)
 These are features that *may* be added (even in the releases above) or possibly dismissed.
   * FAQ
+  * User created autocomplete values
+  * Multiple photo support
+  * Lower level API / Android version support
   * Additional themes
   * Import from .CSV functionality
+  * Automated back-up / sync to Google Drive, Dropbox, etc.
   * Containers
   * Back up user data with Dropbox functionality
   * Collect anonymized app information to diagnose problems
   * Splashscreen / logo rework
+  * Event screen
+  * Barcode scanner
   * Increased observability / logging
