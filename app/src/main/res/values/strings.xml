@@ -48,9 +48,7 @@
     <string name="label_type">Type</string>
     <string name="label_select_photo">Select Photo</string>
     <string name="label_take_photo">Take Photo</string>
-    <string name="toast_need_photo_permission">Photos and videos access must be enabled to use this
-        feature
-    </string>
+    <string name="toast_need_photo_permission">Photos and videos access must be enabled to use this feature</string>
     <!-- Create Building -->
     <string name="label_building_name">Building name</string>
     <string name="label_building_type">Building type</string>
@@ -84,15 +82,10 @@
     <string name="dialog_positive">OK</string>
     <string name="dialog_negative">Cancel</string>
     <string name="dialog_export_title">Export item data?</string>
-    <string name="dialog_export_message">Your records will be saved to your device\'s downloads
-        folder</string>
+    <string name="dialog_export_message">Your records will be saved to your device\'s downloads folder</string>
     <string name="dialog_create_item_title">Missing required value</string>
-    <string name="dialog_create_item_message">To continue, make sure your item has all mandatory
-        information filled out
-    </string>
-    <string name="dialog_create_building_message">To continue, make sure your building has all
-        mandatory information filled out
-    </string>
+    <string name="dialog_create_item_message">To continue, make sure your item has all mandatory information filled out</string>
+    <string name="dialog_create_building_message">To continue, make sure your building has all mandatory information filled out</string>
     <string name="dialog_settings_building_name">Building Name</string>
     <string name="dialog_settings_building_type">Building Type</string>
     <string name="dialog_settings_building_desc">Building Description</string>
@@ -109,30 +102,62 @@
     <!-- Settings: Appearance -->
     <string name="label_appearance">Appearance</string>
     <string name="label_currency">Currency</string>
-    <string name="label_currency_summary">
-        Choose your preference of currency icon
-        \n\nWARNING: Changing your preferred currency does not update previously entered values
-    </string>
+    <string name="label_currency_summary">Choose your preference of currency label \n\nWARNING: Changing your preferred currency does not update previously entered values</string>
+    <string name="label_ariary">Ar Ariary</string>
+    <string name="label_baht">฿ Baht</string>
+    <string name="label_boliviano">Bs Boliviano</string>
+    <string name="label_birr">Br Birr</string>
     <string name="label_bitcoin">₿ Bitcoin</string>
+    <string name="label_cedi">₵ Cedi</string>
+    <string name="label_colon">₡ Colón</string>
+    <string name="label_convertible_mark">KM Convertible Mark</string>
+    <string name="label_dalasi">D Dalasi</string>
+    <string name="label_dinar">D Dinar</string>
+    <string name="label_dirham">DH Dirham</string>
     <string name="label_dollar">$ Dollar</string>
     <string name="label_dong">₫ Dong</string>
+    <string name="label_dram">֏ Dram</string>
     <string name="label_euro">€ Euro</string>
+    <string name="label_florin">ƒ Florin</string>
+    <string name="label_franc">Fr Franc</string>
+    <string name="label_forint">Ft Forint</string>
+    <string name="label_gourde">G Gourde</string>
     <string name="label_guarani">₲ Guarani</string>
+    <string name="label_guilder">ƒ Guilder</string>
     <string name="label_hryvnia">₴ Hryvnia</string>
     <string name="label_kip">₭ Kip</string>
+    <string name="label_koruna">Kč Koruna</string>
+    <string name="label_krona">kr Krona</string>
+    <string name="label_krone">kr Krone</string>
+    <string name="label_kwanza">Kz Kwanza</string>
     <string name="label_lari">₾ Lari</string>
+    <string name="label_lek">Lek Lek</string>
+    <string name="label_leone">Le Leone</string>
+    <string name="label_lempira">L Lempira</string>
+    <string name="label_lev">Lev Lev</string>
     <string name="label_lira">₺ Lira</string>
     <string name="label_manat">₼ Manat</string>
+    <string name="label_metical">Mt Metical</string>
+    <string name="label_nafka">Nkf Nafka</string>
     <string name="label_naira">₦ Naira</string>
     <string name="label_peso">₱ Peso</string>
     <string name="label_pound">₤ Pound Sterling</string>
+    <string name="label_pula">P Pula</string>
+    <string name="label_quetzal">Q Quetzal</string>
+    <string name="label_rand">R Rand</string>
+    <string name="label_renminbi">¥ Renminbi</string>
+    <string name="label_riyal">QR Riyal</string>
     <string name="label_ruble">₽ Ruble</string>
     <string name="label_rupee">र Rupee</string>
     <string name="label_shekel">₪ Shekel</string>
+    <string name="label_somoni">SM Somoni</string>
+    <string name="label_taka">৳ Taka</string>
     <string name="label_tenge">₸ Tenge</string>
     <string name="label_tugrik">₮ Tugrik</string>
+    <string name="label_vatu">VT Vatu</string>
     <string name="label_won">₩ Won</string>
-    <string name="label_yen_yuan">¥ Yen / Yuan</string>
+    <string name="label_yen">¥ Yen</string>
+    
     <!-- Settings: Theme Preference -->
     <string name="label_theme">Theme</string>
     <string name="label_theme_summary">Choose your preference of app theme</string>
@@ -142,8 +167,7 @@
     <!-- Settings: Contact Us -->
     <string name="label_contact">Contact</string>
     <string name="label_rate">Rate</string>
-    <string name="label_rate_summary">Love Hot Stuff? Hate it? Consider letting the whole world know by
-        leaving us a rating</string>
+    <string name="label_rate_summary">Love Hot Stuff? Hate it? Consider letting the whole world know by leaving us a rating</string>
     <string name="label_feedback">Send Feedback</string>
     <string name="label_feedback_summary">Have a suggestion? We\'d love to hear from you!</string>
     <string name="label_report">Report Bug</string>
@@ -177,10 +201,7 @@
     <string name="link_terms">https://github.com/PamCatten/hot-stuff/blob/main/TERMS.md</string>
     <string name="link_privacy">https://github.com/PamCatten/hot-stuff/blob/main/PRIVACY.md</string>
     <!-- Onboard -->
-    <string name="onboard_disclaimer">By clicking continue you are agreeing to both our
-        <a href="https://github.com/PamCatten/hot-stuff/blob/main/TERMS.md">Terms of Service</a> and
-        <a href="https://github.com/PamCatten/hot-stuff/blob/main/PRIVACY.md">Privacy Policy</a>.
-    </string>
+    <string name="onboard_disclaimer">By clicking continue you are agreeing to both our <a href="https://github.com/PamCatten/hot-stuff/blob/main/TERMS.md">Terms of Service</a> and <a href="https://github.com/PamCatten/hot-stuff/blob/main/PRIVACY.md">Privacy Policy</a>.</string>
     <string name="onboard_pattern_terms">Terms of Service</string>
     <string name="onboard_pattern_privacy">Privacy Policy</string>
     <string name="onboard_button_skip">SKIP</string>
@@ -191,28 +212,16 @@
     <string name="desc_onboard_image">Amorphous blobs in the vague shape of ascending flames</string>
     <!-- Onboard Screens -->
     <string name="onboard_one_title">Welcome aboard!</string>
-    <string name="onboard_one_text">Welcome to Hot Stuff! Your trusted companion for streamlining
-        the process of documenting your belongings for insurance claims.
+    <string name="onboard_one_text">Welcome to Hot Stuff! Your trusted companion for streamlining the process of documenting your belongings for insurance claims.
     </string>
     <string name="onboard_two_title">Organize efficiently</string>
-    <string name="onboard_two_text">Effortlessly add items, take pictures, and download your
-        records to seamlessly transfer the work you do here to Excel or Google Sheets.
-    </string>
+    <string name="onboard_two_text">Effortlessly add items, take pictures, and download your records to seamlessly transfer the work you do here to Excel or Google Sheets.</string>
     <string name="onboard_three_title">Privacy first</string>
-    <string name="onboard_three_text">Hot Stuff is designed with privacy in mind. No personal
-        information, account or internet connection is required to use it. Create records
-        confidently knowing your data is secure.
-    </string>
+    <string name="onboard_three_text">Hot Stuff is designed with privacy in mind. No personal information, account or internet connection is required to use it. Create records confidently knowing your data is secure.</string>
     <string name="onboard_four_title">Peace of mind, simplified</string>
-    <string name="onboard_four_text">By securing your belongings digitally, you\'re giving yourself
-        the peace of mind of being prepared for the unexpected. Stay with us for one more step and
-        we can help get you there!
-    </string>
+    <string name="onboard_four_text">By securing your belongings digitally, you\'re giving yourself the peace of mind of being prepared for the unexpected. Stay with us for one more step and we can help get you there! </string>
     <string name="onboard_create_building_title">No place like home</string>
-    <string name="onboard_create_building_text">Before you can start cataloging your belongings, we
-        need some basic details about your home to help organize things behind the scenes.
-        \n\nThese values appear only in the app, and anything you enter here can be changed later.
-    </string>
+    <string name="onboard_create_building_text">Before you can start cataloging your belongings, we need some basic details about your home to help organize things behind the scenes. \n\nThese values appear only in the app, and anything you enter here can be changed later.</string>
     <!-- Database -->
 <!--    <string name="db_name">HotStuff.db</string>-->
 <!--    <string name="db_table_item">ITEM</string>-->

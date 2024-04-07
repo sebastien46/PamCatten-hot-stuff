@@ -17,48 +17,116 @@
         <item>@string/theme_dark</item>
     </string-array>
     <string-array name="currency_labels">
+        <item>@string/label_ariary</item>
+        <item>@string/label_baht</item>
+        <item>@string/label_birr</item>
         <item>@string/label_bitcoin</item>
+        <item>@string/label_boliviano</item>
+        <item>@string/label_cedi</item>
+        <item>@string/label_colon</item>
+        <item>@string/label_convertible_mark</item>
+        <item>@string/label_dalasi</item>
+        <item>@string/label_dinar</item>
+        <item>@string/label_dirham</item>
         <item>@string/label_dollar</item>
         <item>@string/label_dong</item>
+        <item>@string/label_dram</item>
         <item>@string/label_euro</item>
+        <item>@string/label_florin</item>
+        <item>@string/label_forint</item>
+        <item>@string/label_franc</item>
+        <item>@string/label_gourde</item>
         <item>@string/label_guarani</item>
-        <item>@string/label_guarani</item>
+        <item>@string/label_guilder</item>
+        <item>@string/label_hryvnia</item>
         <item>@string/label_kip</item>
+        <item>@string/label_koruna</item>
+        <item>@string/label_krona</item>
+        <item>@string/label_krone</item>
+        <item>@string/label_kwanza</item>
         <item>@string/label_lari</item>
+        <item>@string/label_lek</item>
+        <item>@string/label_lempira</item>
+        <item>@string/label_leone</item>
+        <item>@string/label_lev</item>
         <item>@string/label_lira</item>
         <item>@string/label_manat</item>
+        <item>@string/label_metical</item>
+        <item>@string/label_nafka</item>
         <item>@string/label_naira</item>
         <item>@string/label_peso</item>
         <item>@string/label_pound</item>
+        <item>@string/label_pula</item>
+        <item>@string/label_quetzal</item>
+        <item>@string/label_rand</item>
+        <item>@string/label_renminbi</item>
+        <item>@string/label_riyal</item>
         <item>@string/label_ruble</item>
         <item>@string/label_rupee</item>
         <item>@string/label_shekel</item>
+        <item>@string/label_somoni</item>
+        <item>@string/label_taka</item>
         <item>@string/label_tenge</item>
         <item>@string/label_tugrik</item>
+        <item>@string/label_vatu</item>
         <item>@string/label_won</item>
-        <item>@string/label_yen_yuan</item>
+        <item>@string/label_yen</item>
     </string-array>
     <string-array name="currency_values">
+        <item>@string/cur_ariary</item>
+        <item>@string/cur_baht</item>
+        <item>@string/cur_birr</item>
         <item>@string/cur_bitcoin</item>
+        <item>@string/cur_boliviano</item>
+        <item>@string/cur_cedi</item>
+        <item>@string/cur_colon</item>
+        <item>@string/cur_convertible_mark</item>
+        <item>@string/cur_dalasi</item>
+        <item>@string/cur_dinar</item>
+        <item>@string/cur_dirham</item>
         <item>@string/cur_dollar</item>
         <item>@string/cur_dong</item>
+        <item>@string/cur_dram</item>
         <item>@string/cur_euro</item>
+        <item>@string/cur_florin</item>
+        <item>@string/cur_forint</item>
+        <item>@string/cur_franc</item>
+        <item>@string/cur_gourde</item>
         <item>@string/cur_guarani</item>
+        <item>@string/cur_guilder</item>
         <item>@string/cur_hryvnia</item>
         <item>@string/cur_kip</item>
+        <item>@string/cur_koruna</item>
+        <item>@string/cur_krona</item>
+        <item>@string/cur_krone</item>
+        <item>@string/cur_kwanza</item>
         <item>@string/cur_lari</item>
+        <item>@string/cur_lek</item>
+        <item>@string/cur_lempira</item>
+        <item>@string/cur_leone</item>
+        <item>@string/cur_lev</item>
         <item>@string/cur_lira</item>
         <item>@string/cur_manat</item>
+        <item>@string/cur_metical</item>
+        <item>@string/cur_nafka</item>
         <item>@string/cur_naira</item>
         <item>@string/cur_peso</item>
         <item>@string/cur_pound</item>
+        <item>@string/cur_pula</item>
+        <item>@string/cur_quetzal</item>
+        <item>@string/cur_rand</item>
+        <item>@string/cur_renminbi</item>
+        <item>@string/cur_riyal</item>
         <item>@string/cur_ruble</item>
         <item>@string/cur_rupee</item>
         <item>@string/cur_shekel</item>
+        <item>@string/cur_somoni</item>
+        <item>@string/cur_taka</item>
         <item>@string/cur_tenge</item>
         <item>@string/cur_tugrik</item>
+        <item>@string/cur_vatu</item>
         <item>@string/cur_won</item>
-        <item>@string/cur_yen_yuan</item>
+        <item>@string/cur_yen</item>
     </string-array>
 
     <string-array name="building_type">

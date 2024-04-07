@@ -27,47 +27,115 @@
     <string name="theme_light" translatable="false">light</string>
     <string name="theme_dark" translatable="false">dark</string>
 
+    <string name="cur_ariary" translatable="false">ariary</string>
+    <string name="cur_baht" translatable="false">baht</string>
+    <string name="cur_birr" translatable="false">birr</string>
     <string name="cur_bitcoin" translatable="false">bitcoin</string>
+    <string name="cur_boliviano" translatable="false">boliviano</string>
+    <string name="cur_cedi" translatable="false">cedi</string>
+    <string name="cur_colon" translatable="false">colon</string>
+    <string name="cur_convertible_mark" translatable="false">convertible_mark</string>
+    <string name="cur_dalasi" translatable="false">dalasi</string>
+    <string name="cur_dinar" translatable="false">dinar</string>
+    <string name="cur_dirham" translatable="false">dirham</string>
     <string name="cur_dollar" translatable="false">dollar</string>
     <string name="cur_dong" translatable="false">dong</string>
+    <string name="cur_dram" translatable="false">dram</string>
     <string name="cur_euro" translatable="false">euro</string>
+    <string name="cur_florin" translatable="false">florin</string>
+    <string name="cur_forint" translatable="false">forint</string>
+    <string name="cur_franc" translatable="false">franc</string>
+    <string name="cur_gourde" translatable="false">gourde</string>
     <string name="cur_guarani" translatable="false">guarani</string>
+    <string name="cur_guilder" translatable="false">guilder</string>
     <string name="cur_hryvnia" translatable="false">hryvnia</string>
     <string name="cur_kip" translatable="false">kip</string>
+    <string name="cur_koruna" translatable="false">koruna</string>
+    <string name="cur_krona" translatable="false">krona</string>
+    <string name="cur_krone" translatable="false">krone</string>
+    <string name="cur_kwanza" translatable="false">kwanza</string>
     <string name="cur_lari" translatable="false">lari</string>
+    <string name="cur_lek" translatable="false">lek</string>
+    <string name="cur_leone" translatable="false">leone</string>
+    <string name="cur_lempira" translatable="false">lempira</string>
+    <string name="cur_lev" translatable="false">lev</string>
     <string name="cur_lira" translatable="false">lira</string>
     <string name="cur_manat" translatable="false">manat</string>
+    <string name="cur_metical" translatable="false">metical</string>
+    <string name="cur_nafka" translatable="false">nafka</string>
     <string name="cur_naira" translatable="false">naira</string>
     <string name="cur_peso" translatable="false">peso</string>
     <string name="cur_pound" translatable="false">pound</string>
+    <string name="cur_pula" translatable="false">pula</string>
+    <string name="cur_quetzal" translatable="false">quetzal</string>
+    <string name="cur_rand" translatable="false">rand</string>
+    <string name="cur_renminbi" translatable="false">renminbi</string>
+    <string name="cur_riyal" translatable="false">riyal</string>
     <string name="cur_ruble" translatable="false">ruble</string>
     <string name="cur_rupee" translatable="false">rupee</string>
     <string name="cur_shekel" translatable="false">shekel</string>
+    <string name="cur_somoni" translatable="false">somoni</string>
+    <string name="cur_taka" translatable="false">taka</string>
     <string name="cur_tenge" translatable="false">tenge</string>
     <string name="cur_tugrik" translatable="false">tugrik</string>
+    <string name="cur_vatu" translatable="false">vatu</string>
     <string name="cur_won" translatable="false">won</string>
-    <string name="cur_yen_yuan" translatable="false">yen_yuan</string>
+    <string name="cur_yen" translatable="false">yen</string>
 
+    <string name="icon_ariary">Ar</string>
+    <string name="icon_baht">฿</string>
+    <string name="icon_birr">Br</string>
     <string name="icon_bitcoin">₿</string>
+    <string name="icon_boliviano">Bs</string>
+    <string name="icon_cedi">₵</string>
+    <string name="icon_colon">₡</string>
+    <string name="icon_convertible_mark">KM</string>
+    <string name="icon_dalasi">D</string>
+    <string name="icon_dinar">D</string>
+    <string name="icon_dirham">DH</string>
     <string name="icon_dollar">$</string>
     <string name="icon_dong">₫</string>
+    <string name="icon_dram">֏</string>
     <string name="icon_euro">€</string>
+    <string name="icon_florin">ƒ</string>
+    <string name="icon_forint">Ft</string>
+    <string name="icon_franc">Fr</string>
+    <string name="icon_gourde">G</string>
     <string name="icon_guarani">₲</string>
+    <string name="icon_guilder">ƒ</string>
     <string name="icon_hryvnia">₴</string>
     <string name="icon_kip">₭</string>
+    <string name="icon_koruna">Kč</string>
+    <string name="icon_krona">kr</string>
+    <string name="icon_krone">kr</string>
+    <string name="icon_kwanza">Kz</string>
     <string name="icon_lari">₾</string>
+    <string name="icon_lek">Lek</string>
+    <string name="icon_lempira">L</string>
+    <string name="icon_leone">Le</string>
+    <string name="icon_lev">Lev</string>
     <string name="icon_lira">₺</string>
     <string name="icon_manat">₼</string>
+    <string name="icon_metical">Mt</string>
+    <string name="icon_nafka">Nkf</string>
     <string name="icon_naira">₦</string>
     <string name="icon_peso">₱</string>
     <string name="icon_pound">₤</string>
+    <string name="icon_pula">P</string>
+    <string name="icon_quetzal">Q</string>
+    <string name="icon_rand">R</string>
+    <string name="icon_renminbi">¥</string>
+    <string name="icon_riyal">QR</string>
     <string name="icon_ruble">₽</string>
     <string name="icon_rupee">र</string>
     <string name="icon_shekel">₪</string>
+    <string name="icon_somoni">SM</string>
+    <string name="icon_taka">৳</string>
     <string name="icon_tenge">₸</string>
     <string name="icon_tugrik">₮</string>
+    <string name="icon_vatu">VT</string>
     <string name="icon_won">₩</string>
-    <string name="icon_yen_yuan">¥</string>
+    <string name="icon_yen">¥</string>
 
     <string name="type_apartment" translatable="false">apartment</string>
     <string name="type_condo" translatable="false">condo</string>
