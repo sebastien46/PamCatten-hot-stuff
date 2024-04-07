@@ -2,6 +2,7 @@ import org.jetbrains.dokka.gradle.DokkaTask
 
 plugins {
     id("com.android.application")
+    id("com.google.android.gms.oss-licenses-plugin")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.dokka")
     id("kotlin-kapt")
@@ -17,8 +18,8 @@ android {
         applicationId = "com.hotstuff"
         minSdk = 33
         targetSdk = 34
-        versionCode = 3
-        versionName = "1.0.2"
+        versionCode = 4
+        versionName = "1.1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -33,6 +34,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
     buildTypes {
