@@ -40,8 +40,8 @@ View the latest test coverage status report on [Codecov](https://app.codecov.io/
 ## Design
 ### Roadmap
 See the [roadmap](https://github.com/PamCatten/hot-stuff/blob/main/ROADMAP.md) for more details about what we plan to include in future releases.
-### Design Document
-See the [technical design document](https://docs.google.com/document/d/177xGpi3BK14RevmSoKWCA5AEw8B0tt4f7ILGGo3Y3MI/edit#heading=h.j040vupqoagj) for more details about how or why Hot Stuff is in its current state. 
+<!-- ### Design Document
+See the [technical design document](https://docs.google.com/document/d/177xGpi3BK14RevmSoKWCA5AEw8B0tt4f7ILGGo3Y3MI/edit#heading=h.j040vupqoagj) for more details about how or why Hot Stuff is in its current state. -->
 ### Design Philosophy
 Filing an insurance claim is a difficult process, especially in the wake of fires or other devastating emergencies; Hot Stuff was built with this in mind.
 It's designed to provide a simple, accessible solution for managing belongings, and to streamline the cataloguing process without overwhelming users with unneded complexity. 
