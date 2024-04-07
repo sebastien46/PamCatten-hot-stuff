@@ -6,7 +6,7 @@
         licensed attorney, financial advisor, or insurance professional.
     </string>
     <string name="article_getStarted">getStarted</string>
-    <string name="article_getStarted_title">Walkthrough: Getting Started</string>
+    <string name="article_getStarted_title">Getting Started</string>
     <string name="article_getStarted_text">
         Welcome! This guide exists to provide a brief introduction to Hot Stuff\'s features and to
         explain the basic workflow of cataloging your possessions.
@@ -68,7 +68,7 @@
         \'Contact Developer\' on the \'Settings\' screen to get in contact with the developer directly.
     </string>
     <string name="article_export">export</string>
-    <string name="article_export_title">Walkthrough: Export Item Records</string>
+    <string name="article_export_title">Exporting Item Records</string>
     <string name="article_export_text">
         Follow these steps to export your data to a .CSV (Comma-Separated Values) file, which can
         then be opened in spreadsheet software like Google Sheets or Excel.

@@ -55,6 +55,8 @@ class CreateItemFragment: Fragment() {
         val createButton = view.findViewById<MaterialButton>(R.id.button_create_item)
         val createImage = view.findViewById<ShapeableImageView>(R.id.create_image)
 
+        quantityText.setText("1")
+
         nameText.setOnFocusChangeListener { _, focused ->
             fun validName(): String? {
                 nameText.error = null
@@ -178,8 +180,10 @@ class CreateItemFragment: Fragment() {
                 createImage.setImageResource(R.drawable.image_default_item)
                 descriptionText.text = null
 
+                quantityText.setText("1")
+
                 nameContainer.helperText = getText(R.string.label_required_hint)
-                quantityContainer.helperText = getText(R.string.label_required_hint)
+//                quantityContainer.helperText = getText(R.string.label_required_hint)
                 categoryContainer.helperText = getText(R.string.label_required_hint)
                 roomContainer.helperText = getText(R.string.label_required_hint)
 
