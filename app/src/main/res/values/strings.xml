@@ -111,6 +111,7 @@
     <string name="label_cedi">₵ Cedi</string>
     <string name="label_colon">₡ Colón</string>
     <string name="label_convertible_mark">KM Convertible Mark</string>
+    <string name="label_cordoba">C$ Córdoba</string>
     <string name="label_dalasi">D Dalasi</string>
     <string name="label_dinar">D Dinar</string>
     <string name="label_dirham">DH Dirham</string>
@@ -129,6 +130,7 @@
     <string name="label_koruna">Kč Koruna</string>
     <string name="label_krona">kr Krona</string>
     <string name="label_krone">kr Krone</string>
+    <string name="label_kwacha">K Kwacha</string>
     <string name="label_kwanza">Kz Kwanza</string>
     <string name="label_lari">₾ Lari</string>
     <string name="label_lek">Lek Lek</string>
@@ -145,10 +147,15 @@
     <string name="label_pula">P Pula</string>
     <string name="label_quetzal">Q Quetzal</string>
     <string name="label_rand">R Rand</string>
+    <string name="label_real">R$ Real</string>
     <string name="label_renminbi">¥ Renminbi</string>
+    <string name="label_rial">RI Rial</string>
+    <string name="label_riel">៛ Riel</string>
+    <string name="label_ringgit">RM Ringgit</string>
     <string name="label_riyal">QR Riyal</string>
     <string name="label_ruble">₽ Ruble</string>
     <string name="label_rupee">र Rupee</string>
+    <string name="label_rupiah">Rp Rupiah</string>
     <string name="label_shekel">₪ Shekel</string>
     <string name="label_somoni">SM Somoni</string>
     <string name="label_taka">৳ Taka</string>

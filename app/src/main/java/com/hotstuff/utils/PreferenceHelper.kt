@@ -82,6 +82,7 @@ class PreferenceHelper(val context: Context) {
             context.getString(R.string.cur_cedi) -> R.string.icon_cedi
             context.getString(R.string.cur_colon) -> R.string.icon_colon
             context.getString(R.string.cur_convertible_mark) -> R.string.icon_convertible_mark
+            context.getString(R.string.cur_cordoba) -> R.string.icon_cordoba
             context.getString(R.string.cur_dalasi) -> R.string.icon_dalasi
             context.getString(R.string.cur_dinar) -> R.string.icon_dinar
             context.getString(R.string.cur_dirham) -> R.string.icon_dirham
@@ -100,6 +101,7 @@ class PreferenceHelper(val context: Context) {
             context.getString(R.string.cur_koruna) -> R.string.icon_koruna
             context.getString(R.string.cur_krona) -> R.string.icon_krona
             context.getString(R.string.cur_krone) -> R.string.icon_krone
+            context.getString(R.string.cur_kwacha) -> R.string.icon_kwacha
             context.getString(R.string.cur_kwanza) -> R.string.icon_kwanza
             context.getString(R.string.cur_lari) -> R.string.icon_lari
             context.getString(R.string.cur_lek) -> R.string.icon_lek
@@ -116,10 +118,15 @@ class PreferenceHelper(val context: Context) {
             context.getString(R.string.cur_pula) -> R.string.icon_pula
             context.getString(R.string.cur_quetzal) -> R.string.icon_quetzal
             context.getString(R.string.cur_rand) -> R.string.icon_rand
+            context.getString(R.string.cur_real) -> R.string.icon_real
             context.getString(R.string.cur_renminbi) -> R.string.icon_renminbi
+            context.getString(R.string.cur_rial) -> R.string.icon_rial
+            context.getString(R.string.cur_riel) -> R.string.icon_riel
+            context.getString(R.string.cur_ringgit) -> R.string.icon_ringgit
             context.getString(R.string.cur_riyal) -> R.string.icon_riyal
             context.getString(R.string.cur_ruble) -> R.string.icon_ruble
             context.getString(R.string.cur_rupee) -> R.string.icon_rupee
+            context.getString(R.string.cur_rupiah) -> R.string.icon_rupiah
             context.getString(R.string.cur_shekel) -> R.string.icon_shekel
             context.getString(R.string.cur_somoni) -> R.string.icon_somoni
             context.getString(R.string.cur_taka) -> R.string.icon_taka

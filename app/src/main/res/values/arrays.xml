@@ -16,7 +16,7 @@
         <item>@string/theme_light</item>
         <item>@string/theme_dark</item>
     </string-array>
-    <string-array name="currency_labels">
+    <string-array name="currency_labels">gi
         <item>@string/label_ariary</item>
         <item>@string/label_baht</item>
         <item>@string/label_birr</item>
@@ -25,6 +25,7 @@
         <item>@string/label_cedi</item>
         <item>@string/label_colon</item>
         <item>@string/label_convertible_mark</item>
+        <item>@string/label_cordoba</item>
         <item>@string/label_dalasi</item>
         <item>@string/label_dinar</item>
         <item>@string/label_dirham</item>
@@ -43,6 +44,7 @@
         <item>@string/label_koruna</item>
         <item>@string/label_krona</item>
         <item>@string/label_krone</item>
+        <item>@string/label_kwacha</item>
         <item>@string/label_kwanza</item>
         <item>@string/label_lari</item>
         <item>@string/label_lek</item>
@@ -59,10 +61,15 @@
         <item>@string/label_pula</item>
         <item>@string/label_quetzal</item>
         <item>@string/label_rand</item>
+        <item>@string/label_real</item>
         <item>@string/label_renminbi</item>
+        <item>@string/label_rial</item>
+        <item>@string/label_riel</item>
+        <item>@string/label_ringgit</item>
         <item>@string/label_riyal</item>
         <item>@string/label_ruble</item>
         <item>@string/label_rupee</item>
+        <item>@string/label_rupiah</item>
         <item>@string/label_shekel</item>
         <item>@string/label_somoni</item>
         <item>@string/label_taka</item>
@@ -81,6 +88,7 @@
         <item>@string/cur_cedi</item>
         <item>@string/cur_colon</item>
         <item>@string/cur_convertible_mark</item>
+        <item>@string/cur_cordoba</item>
         <item>@string/cur_dalasi</item>
         <item>@string/cur_dinar</item>
         <item>@string/cur_dirham</item>
@@ -99,6 +107,7 @@
         <item>@string/cur_koruna</item>
         <item>@string/cur_krona</item>
         <item>@string/cur_krone</item>
+        <item>@string/cur_kwacha</item>
         <item>@string/cur_kwanza</item>
         <item>@string/cur_lari</item>
         <item>@string/cur_lek</item>
@@ -115,10 +124,15 @@
         <item>@string/cur_pula</item>
         <item>@string/cur_quetzal</item>
         <item>@string/cur_rand</item>
+        <item>@string/cur_real</item>
         <item>@string/cur_renminbi</item>
+        <item>@string/cur_rial</item>
+        <item>@string/cur_riel</item>
+        <item>@string/cur_ringgit</item>
         <item>@string/cur_riyal</item>
         <item>@string/cur_ruble</item>
         <item>@string/cur_rupee</item>
+        <item>@string/cur_rupiah</item>
         <item>@string/cur_shekel</item>
         <item>@string/cur_somoni</item>
         <item>@string/cur_taka</item>

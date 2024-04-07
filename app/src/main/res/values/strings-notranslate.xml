@@ -35,6 +35,7 @@
     <string name="cur_cedi" translatable="false">cedi</string>
     <string name="cur_colon" translatable="false">colon</string>
     <string name="cur_convertible_mark" translatable="false">convertible_mark</string>
+    <string name="cur_cordoba" translatable="false">cordoba</string>
     <string name="cur_dalasi" translatable="false">dalasi</string>
     <string name="cur_dinar" translatable="false">dinar</string>
     <string name="cur_dirham" translatable="false">dirham</string>
@@ -53,6 +54,7 @@
     <string name="cur_koruna" translatable="false">koruna</string>
     <string name="cur_krona" translatable="false">krona</string>
     <string name="cur_krone" translatable="false">krone</string>
+    <string name="cur_kwacha" translatable="false">kwacha</string>
     <string name="cur_kwanza" translatable="false">kwanza</string>
     <string name="cur_lari" translatable="false">lari</string>
     <string name="cur_lek" translatable="false">lek</string>
@@ -69,10 +71,15 @@
     <string name="cur_pula" translatable="false">pula</string>
     <string name="cur_quetzal" translatable="false">quetzal</string>
     <string name="cur_rand" translatable="false">rand</string>
+    <string name="cur_real" translatable="false">real</string>
     <string name="cur_renminbi" translatable="false">renminbi</string>
+    <string name="cur_rial" translatable="false">rial</string>
+    <string name="cur_riel" translatable="false">riel</string>
+    <string name="cur_ringgit" translatable="false">ringgit</string>
     <string name="cur_riyal" translatable="false">riyal</string>
     <string name="cur_ruble" translatable="false">ruble</string>
     <string name="cur_rupee" translatable="false">rupee</string>
+    <string name="cur_rupiah" translatable="false">rupiah</string>
     <string name="cur_shekel" translatable="false">shekel</string>
     <string name="cur_somoni" translatable="false">somoni</string>
     <string name="cur_taka" translatable="false">taka</string>
@@ -90,6 +97,7 @@
     <string name="icon_cedi">₵</string>
     <string name="icon_colon">₡</string>
     <string name="icon_convertible_mark">KM</string>
+    <string name="icon_cordoba">C$</string>
     <string name="icon_dalasi">D</string>
     <string name="icon_dinar">D</string>
     <string name="icon_dirham">DH</string>
@@ -108,6 +116,7 @@
     <string name="icon_koruna">Kč</string>
     <string name="icon_krona">kr</string>
     <string name="icon_krone">kr</string>
+    <string name="icon_kwacha">K</string>
     <string name="icon_kwanza">Kz</string>
     <string name="icon_lari">₾</string>
     <string name="icon_lek">Lek</string>
@@ -124,10 +133,15 @@
     <string name="icon_pula">P</string>
     <string name="icon_quetzal">Q</string>
     <string name="icon_rand">R</string>
+    <string name="icon_real">R$</string>
     <string name="icon_renminbi">¥</string>
+    <string name="icon_rial">RI</string>
+    <string name="icon_riel">៛</string>
+    <string name="icon_ringgit">RM</string>
     <string name="icon_riyal">QR</string>
     <string name="icon_ruble">₽</string>
     <string name="icon_rupee">र</string>
+    <string name="icon_rupiah">Rp</string>
     <string name="icon_shekel">₪</string>
     <string name="icon_somoni">SM</string>
     <string name="icon_taka">৳</string>
