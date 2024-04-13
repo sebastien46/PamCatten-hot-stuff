@@ -265,6 +265,7 @@
     <string name="toast_deleteBuilding_fail">Delete failed. Please send a bug report</string>
     <string name="toast_exportCSV_success">Items exported. Check your downloads folder</string>
     <string name="toast_exportCSV_fail">Export failed. Please send a bug report</string>
+    <string name="toast_invalid_image">Item image cannot be reached, image changed to default</string>
     <!-- Filler -->
     <string name="filler_unspecified">Unspecified</string>
     <string name="filler_label_short">Lorem</string>

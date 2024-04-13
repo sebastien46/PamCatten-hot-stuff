@@ -128,6 +128,23 @@ class DatabaseHelper(val context: Context):
                 Toast.LENGTH_SHORT).show()
         }
     }
+
+    /**
+     * Remove the unreachable image URI of the passed item id in the database and toast the user
+     * to inform them.
+     * @param id the id of the item to be updated
+     * @author Cam Patten
+     */
+    fun removeInvalidImageURI(id: Int) {
+        val db = this.writableDatabase
+        val result = db.rawQuery("UPDATE $TABLE_NAME_ITEM SET $COLUMN_ITEM_IMAGE_URI = null " +
+                "WHERE $COLUMN_ITEM_ID = $id", null)
+        result.moveToFirst()
+        result.close()
+        Toast.makeText(context, context.getText(R.string.toast_invalid_image),
+            Toast.LENGTH_SHORT).show()
+    }
+
     /**
      * Delete the row of the passed item id in the database and toast the result
      * (whether success/failure).
