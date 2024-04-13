@@ -1,4 +1,3 @@
 package com.hotstuff.utils
 
-class OnboardAdapterTest {
-}
+class OnboardAdapterTest

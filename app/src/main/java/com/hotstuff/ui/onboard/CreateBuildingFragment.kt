@@ -54,7 +54,7 @@ class CreateBuildingFragment : Fragment() {
         }
         createBuildingButton.setOnClickListener {
             fun confirmForm() {
-                val newBuilding = com.hotstuff.models.Building()
+                val newBuilding = Building()
                 newBuilding.name = buildingNameText.text.toString().trim()
                 newBuilding.type = buildingTypeText.text.toString().trim()
                 newBuilding.description = buildingDescriptionText.text.toString().trim()

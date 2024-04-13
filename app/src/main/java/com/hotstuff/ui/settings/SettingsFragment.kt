@@ -118,7 +118,7 @@ class SettingsFragment : PreferenceFragmentCompat(), SharedPreferences.OnSharedP
         val shareMessage = "$shareApp https://play.google.com/store/apps/details?id=$appPackageName"
         textIntent.putExtra(Intent.EXTRA_TEXT, shareMessage)
 
-        startActivity(Intent.createChooser(textIntent, appName));
+        startActivity(Intent.createChooser(textIntent, appName))
     }
 
     /**

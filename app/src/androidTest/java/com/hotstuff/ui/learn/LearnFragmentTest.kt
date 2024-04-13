@@ -1,5 +1,3 @@
 package com.hotstuff.ui.learn
 
-class LearnFragmentTest {
-
-}
+class LearnFragmentTest

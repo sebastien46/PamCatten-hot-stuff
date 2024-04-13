@@ -82,6 +82,7 @@
     <!-- Dialogs -->
     <string name="dialog_positive">OK</string>
     <string name="dialog_negative">Cancel</string>
+    <string name="dialog_delete">Delete</string>
     <string name="dialog_export_title">Export item data?</string>
     <string name="dialog_export_message">Your records will be saved to your device\'s downloads folder</string>
     <string name="dialog_create_item_title">Missing required value</string>
@@ -90,6 +91,8 @@
     <string name="dialog_settings_building_name">Building Name</string>
     <string name="dialog_settings_building_type">Building Type</string>
     <string name="dialog_settings_building_desc">Building Description</string>
+    <string name="dialog_delete_item_title">Delete item?</string>
+    <string name="dialog_delete_item_message">%1$s will be permanently removed from your device</string>
     <string name="desc_expand_dropdown">Expand dropdown</string>
     <!-- Settings: Building Info -->
     <string name="label_building_info">Building Details</string>

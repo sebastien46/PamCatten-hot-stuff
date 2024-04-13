@@ -71,13 +71,6 @@ class ItemDetailFragment : Fragment() {
             image.setImageResource(R.drawable.image_default_item)
             bundle.putString("image", null)
             DatabaseHelper(requireContext()).removeInvalidImageURI(bundle.getInt("id"))
-//            val item = Item(id = bundle.get("id"))
-//            item.id =
-//            item.name = bundle.getString("name")
-//            category.text = bundle.getString("category")
-//            room.text = bundle.getString("room")
-
-            val quantityNumeral = bundle.getInt("quantity")
         }
 
         val editButton = view.findViewById<MaterialButton>(R.id.item_detail_edit_button)
@@ -89,15 +82,15 @@ class ItemDetailFragment : Fragment() {
         val deleteButton = view.findViewById<MaterialButton>(R.id.item_detail_delete_button)
         deleteButton.setOnClickListener{
             val alertDialogBuilder = MaterialAlertDialogBuilder(requireContext(), R.style.dialog_alert)
-            alertDialogBuilder.setTitle("Delete item?")
-            alertDialogBuilder.setMessage("${name.text} will be permanently removed from your device")
-            alertDialogBuilder.setPositiveButton("Delete") { dialog, _ ->
+            alertDialogBuilder.setTitle(getString(R.string.dialog_delete_item_title))
+            alertDialogBuilder.setMessage(getString(R.string.dialog_delete_item_message, name.text))
+            alertDialogBuilder.setPositiveButton(getString(R.string.dialog_delete)) { dialog, _ ->
                 DatabaseHelper(requireContext()).deleteItem(bundle.getInt("id"))
                 bundle.putInt("delete", bundle.getInt("position"))
                 findNavController().navigate(R.id.action_item_detail_to_items, bundle)
                 dialog.dismiss()
             }
-            alertDialogBuilder.setNegativeButton("Cancel") { dialog, _ ->
+            alertDialogBuilder.setNegativeButton(getString(R.string.dialog_negative)) { dialog, _ ->
                 dialog.dismiss()
             }
             val alertDialog = alertDialogBuilder.create()
