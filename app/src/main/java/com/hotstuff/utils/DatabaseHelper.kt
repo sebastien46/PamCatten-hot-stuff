@@ -142,7 +142,7 @@ class DatabaseHelper(val context: Context):
         result.moveToFirst()
         result.close()
         Toast.makeText(context, context.getText(R.string.toast_invalid_image),
-            Toast.LENGTH_SHORT).show()
+            Toast.LENGTH_LONG).show()
     }
 
     /**

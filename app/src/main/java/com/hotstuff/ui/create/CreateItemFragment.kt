@@ -112,16 +112,23 @@ class CreateItemFragment: Fragment() {
         }
         takePhotoButton?.setOnClickListener {
             try {
-                val imageAlbum = File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), "Hot Stuff")
-                if (!imageAlbum.exists()) imageAlbum.mkdirs()
-                imageFile = File(imageAlbum, "HS-${System.currentTimeMillis()}.jpg")
-                if (imageFile!!.createNewFile()) {
-                    uri = FileProvider.getUriForFile(requireContext(), "${requireContext().packageName}.provider", imageFile!!)
-                    takePicture.launch(uri)
+                val requestedPermission = CAMERA_PERMISSION
+                val checkSelfPermission = ContextCompat.checkSelfPermission(requireActivity(), requestedPermission)
+                if (checkSelfPermission == PackageManager.PERMISSION_GRANTED) {
+                    val imageAlbum = File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), "Hot Stuff")
+                    if (!imageAlbum.exists()) imageAlbum.mkdirs()
+                    imageFile = File(imageAlbum, "HS-${System.currentTimeMillis()}.jpg")
+                    if (imageFile!!.createNewFile()) {
+                        uri = FileProvider.getUriForFile(requireContext(), "${requireContext().packageName}.provider", imageFile!!)
+                        takePicture.launch(uri)
+                    }
+                } else if (checkSelfPermission == PackageManager.PERMISSION_DENIED) {
+                    ActivityCompat.requestPermissions(requireActivity(), arrayOf(requestedPermission), CAMERA_REQUEST_CODE)
+                    Toast.makeText(context, getText(R.string.toast_need_camera_permission), Toast.LENGTH_LONG).show()
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
-                Toast.makeText(context, "Error: $e", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "Error: $e", Toast.LENGTH_LONG).show()
             }
         }
 
@@ -135,7 +142,7 @@ class CreateItemFragment: Fragment() {
                     createImage.setImageURI(uri)
                 } catch (e: Exception) {
                     e.printStackTrace()
-                    Toast.makeText(context, "Error: $e", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context, "Error: $e", Toast.LENGTH_LONG).show()
                 }
             }
         }
@@ -147,12 +154,10 @@ class CreateItemFragment: Fragment() {
                     selectPicture.launch(arrayOf(SELECT_INPUT_TYPE))
                 } catch (e: Exception) {
                     e.printStackTrace()
-                    Toast.makeText(context, "Error: $e", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context, "Error: $e", Toast.LENGTH_LONG).show()
                 }
             } else if (checkSelfPermission == PackageManager.PERMISSION_DENIED) {
-                ActivityCompat.requestPermissions(requireActivity(), arrayOf(requestedPermission),
-                    PERMISSION_REQUEST_CODE
-                )
+                ActivityCompat.requestPermissions(requireActivity(), arrayOf(requestedPermission), ACCESS_REQUEST_CODE)
                 Toast.makeText(context, getText(R.string.toast_need_photo_permission), Toast.LENGTH_LONG).show()
             }
         }
@@ -222,8 +227,10 @@ class CreateItemFragment: Fragment() {
         _binding = null
     }
     companion object {
-        const val PERMISSION_REQUEST_CODE = 10
+        const val ACCESS_REQUEST_CODE = 10
+        const val CAMERA_REQUEST_CODE = 20
         const val ACCESS_PERMISSION = android.Manifest.permission.READ_MEDIA_IMAGES
+        const val CAMERA_PERMISSION = android.Manifest.permission.CAMERA
         const val SELECT_INPUT_TYPE = "image/*"
         const val SELECT_MIME_TYPE = "image/jpg"
     }

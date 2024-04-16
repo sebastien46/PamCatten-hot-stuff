@@ -49,6 +49,8 @@
     <string name="label_select_photo">Select Photo</string>
     <string name="label_take_photo">Take Photo</string>
     <string name="toast_need_photo_permission">Photos and videos access must be enabled to use this feature</string>
+    <string name="toast_need_camera_permission">Camera access must be enabled to use this feature</string>
+    <string name="toast_no_camera">Your device must have a camera to use this feature</string>
     <!-- Create Building -->
     <string name="label_building_name">Building name</string>
     <string name="label_building_type">Building type</string>

@@ -132,18 +132,23 @@ class EditItemFragment : Fragment() {
         }
         cameraButton?.setOnClickListener {
             try {
-                val imageAlbum = File(Environment
-                    .getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
-                    getString(R.string.app_name))
-                if (!imageAlbum.exists()) imageAlbum.mkdirs()
-                imageFile = File(imageAlbum, "HS-${System.currentTimeMillis()}.jpg")
-                if (imageFile!!.createNewFile()) {
-                    imageURI = FileProvider.getUriForFile(requireContext(), "${requireContext().packageName}.provider", imageFile!!)
-                    takePicture.launch(imageURI)
+                val requestedPermission = com.hotstuff.ui.create.CreateItemFragment.CAMERA_PERMISSION
+                val checkSelfPermission = ContextCompat.checkSelfPermission(requireActivity(), requestedPermission)
+                if (checkSelfPermission == PackageManager.PERMISSION_GRANTED) {
+                    val imageAlbum = File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), "Hot Stuff")
+                    if (!imageAlbum.exists()) imageAlbum.mkdirs()
+                    imageFile = File(imageAlbum, "HS-${System.currentTimeMillis()}.jpg")
+                    if (imageFile!!.createNewFile()) {
+                        imageURI = FileProvider.getUriForFile(requireContext(), "${requireContext().packageName}.provider", imageFile!!)
+                        takePicture.launch(imageURI)
+                    }
+                } else if (checkSelfPermission == PackageManager.PERMISSION_DENIED) {
+                    ActivityCompat.requestPermissions(requireActivity(), arrayOf(requestedPermission), com.hotstuff.ui.create.CreateItemFragment.CAMERA_REQUEST_CODE)
+                    Toast.makeText(context, getText(R.string.toast_need_camera_permission), Toast.LENGTH_LONG).show()
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
-                Toast.makeText(context, "Error: $e", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "Error: $e", Toast.LENGTH_LONG).show()
             }
         }
 
@@ -173,7 +178,7 @@ class EditItemFragment : Fragment() {
                 }
             } else if (checkSelfPermission == PackageManager.PERMISSION_DENIED) {
                 ActivityCompat.requestPermissions(requireActivity(), arrayOf(requestedPermission),
-                    com.hotstuff.ui.create.CreateItemFragment.PERMISSION_REQUEST_CODE
+                    com.hotstuff.ui.create.CreateItemFragment.ACCESS_REQUEST_CODE
                 )
                 Toast.makeText(context, getText(R.string.toast_need_photo_permission), Toast.LENGTH_LONG).show()
             }
