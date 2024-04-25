@@ -48,6 +48,9 @@ These are features that *may* be added (even in the releases above) or possibly 
   * Event screen
   * Barcode scanner
   * Increased observability / logging
+  * Increase / decrease item quantity buttons on ItemDetail page
+  * Record timestamps of item creation/manipulation
+  * Graph / timeline of changes in item quantity
 
 ## Previous Releases
 
