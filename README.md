@@ -1,5 +1,5 @@
 ![](https://github.com/PamCatten/hot-stuff/blob/main/assets/banner.png)
-![Static Badge](https://img.shields.io/badge/Release-1.0.0-%23F83839)
+![Static Badge](https://img.shields.io/badge/Release-1.1.1-%23F83839)
 [![Build CI](https://github.com/PamCatten/hot-stuff/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/PamCatten/hot-stuff/actions/workflows/build.yml)
 ![Static Badge](https://img.shields.io/badge/API-33%2B-%2340B5F0)
 [![License](https://img.shields.io/badge/License-Apache%202.0-%23FFA303)](http://www.apache.org/licenses/LICENSE-2.0.html)
@@ -34,8 +34,6 @@ See the documentation for descriptions and usage examples of Hot Stuff's functio
 Bug reports, feature requests, questions, and pull requests always welcome! 
 
 Check out our [Contributing Guidelines](https://github.com/PamCatten/hot-stuff/blob/main/CONTRIBUTING.md).
-## Testing
-View the latest test coverage status report on [Codecov](https://app.codecov.io/github/PamCatten/hot-stuff).
 
 ## Design
 ### Roadmap
@@ -83,7 +81,7 @@ Protanopic (red-green) vision ![](https://github.com/PamCatten/hot-stuff/blob/ma
 
 Tritanopic (blue-yellow) vision ![](https://github.com/PamCatten/hot-stuff/blob/main/assets/theme_tritanopia.png)
 
-As you can see, despite sharing the same hue, the colors in the palette closest in shade and staturation should still be distinctive enough for users with various types of CVD to differentiate between.
+As you can see, despite the differences in hue, the colors in the palette closest in shade and staturation should still be distinctive enough for users with various types of CVD to differentiate between.
 
 ### Additional Language Support
 While Hot Stuff currently only has English translations, we recognize the importance of language diversity and are committed to expanding our language support in the future for the benefit of a global audience. 
@@ -98,6 +96,10 @@ While Hot Stuff currently only has English translations, we have included within
 Currently we support:
 * Text within the application is aligned to the right by default for RTL languages, ensuring that content is displayed correctly and is easy to read
 * Mirroring UI elements such as buttons, fields, and dialogs, to align with RTL reading, to hopefully provide a more natural RTL user experience
+
+## Testing
+View the latest test coverage status report on [Codecov](https://app.codecov.io/github/PamCatten/hot-stuff).
+
 
 ## Similar software
 The format of Hot Stuff is entirely our own creation, which is unfortunate, because it means we put a lot time into re-inventing stuff that already exists! If, like us, you didn't know the name of this type of project, these apps are called home inventory or inventory management software. 
